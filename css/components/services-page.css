@@ -1,0 +1,23 @@
+.services-section {
+  margin-bottom: 40px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.services-subtitle {
+  font-size: clamp(1.25rem, 0.714vw + 1.107rem, 1.75rem);
+  line-height: clamp(1.875rem, 1.071vw + 1.661rem, 2.625rem);
+  color: #313132;
+  margin-bottom: 10px;
+}
+.services-text {
+  font-size: clamp(1rem, 0.357vw + 0.929rem, 1.25rem);
+  line-height: clamp(1.5rem, 0.536vw + 1.393rem, 1.875rem);
+  color: #555;
+  margin-bottom: 20px;
+}
+.services-list {
+  list-style: disc;
+  margin-left: 20px;
+}

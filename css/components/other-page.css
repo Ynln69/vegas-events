@@ -1,0 +1,68 @@
+.padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.other-section {
+  width: 90%;
+  margin-right: auto;
+  padding: 50px;
+  margin-left: auto;
+  background-color: var(--section-team-bg-color);
+  border-radius: 20px;
+}
+.other-title {
+  margin-bottom: 25px;
+
+  color: var(--logo-color);
+  font-size: clamp(1.625rem, 2.292vw + 1.062rem, 3.125rem);
+  line-height: clamp(2.438rem, 3.438vw + 1.593rem, 4.688rem);
+  font-weight: 100;
+  text-align: center;
+  text-transform: uppercase;
+}
+.other-text {
+  margin-bottom: 20px;
+
+  font-size: clamp(0.75rem, 1.146vw + 0.468rem, 1.5rem);
+  line-height: clamp(0.9rem, 1.375vw + 0.562rem, 1.8rem);
+  text-align: center;
+  &:first-of-type {
+    margin-bottom: 0;
+  }
+}
+.other-subtitle {
+  margin-bottom: 15px;
+
+  color: var(--logo-color);
+  font-size: clamp(1.125rem, 1.624vw + 0.726rem, 2.188rem);
+  line-height: clamp(1.35rem, 1.948vw + 0.871rem, 2.625rem);
+  font-weight: 200;
+}
+
+.other-subtext {
+  margin-left: 20px;
+  margin-bottom: 10px;
+
+  font-size: clamp(0.75rem, 0.764vw + 0.562rem, 1.25rem);
+  line-height: clamp(0.9rem, 0.917vw + 0.675rem, 1.5rem);
+
+  &:last-of-type {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 0;
+    font-weight: 500;
+  }
+}
+
+.other-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  list-style: upper-roman;
+}
+.other-list li {
+  font-size: clamp(0.75rem, 0.764vw + 0.562rem, 1.25rem);
+  line-height: clamp(0.9rem, 0.917vw + 0.675rem, 1.5rem);
+}

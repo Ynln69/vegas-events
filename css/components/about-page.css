@@ -1,0 +1,35 @@
+.about-section {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.about-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #0057b7;
+}
+.about-text {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.about-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+.about-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  position: relative;
+  
+  font-size: clamp(1.125rem, 0.764vw + 0.937rem, 1.625rem);
+  line-height: clamp(1.35rem, 0.917vw + 1.125rem, 1.95rem);
+}
+.about-item::before {
+  content: "•";
+  color: #0057b7;
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+  line-height: 1;
+}

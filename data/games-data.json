@@ -1,0 +1,77 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "photo": "img/products/item1.webp",
+      "title": "Slot Monopol",
+      "description": "Gra strategiczna w stylu klasycznym, gdzie budujesz swoje imperium finansowe.",
+      "type": "Gry Strategiczne",
+      "price": "569 zł"
+    },
+    {
+      "id": 2,
+      "photo": "img/products/item2.webp",
+      "title": "Kasyno Szczęścia",
+      "description": "Planszowa wersja klasycznego kasyna z elementami ruletki i gry w kości.",
+      "type": "Gry Towarzyskie",
+      "price": "458 zł"
+    },
+    {
+      "id": 3,
+      "photo": "img/products/item3.webp",
+      "title": "Czarodziejskie Kości",
+      "description": "Fantazyjna gra z mistycznymi zaklęciami i rzucaniem magicznych kości.",
+      "type": "Gry Fantasy",
+      "price": "233 zł"
+    },
+    {
+      "id": 4,
+      "photo": "img/products/item4.webp",
+      "title": "Pojedynek Strategów",
+      "description": "Gra logiczna, w której planowanie ruchów prowadzi do zwycięstwa.",
+      "type": "Gry Logiczne",
+      "price": "477 zł"
+    },
+    {
+      "id": 5,
+      "photo": "img/products/item5.webp",
+      "title": "Wyścig Strategów",
+      "description": "Ekscytująca gra wyścigowa, gdzie planowanie i strategia decydują o zwycięstwie.",
+      "type": "Gry Strategiczne",
+      "price": "459 zł"
+    },
+    {
+      "id": 6,
+      "photo": "img/products/item6.webp",
+      "title": "Królestwo Kart",
+      "description": "Gra karciana z elementami strategii, idealna na rodzinne wieczory.",
+      "type": "Gry Karciane",
+      "price": "129 zł"
+    },
+    {
+      "id": 7,
+      "photo": "img/products/item7.webp",
+      "title": "Podróż przez Sloty",
+      "description": "Gra planszowa, w której odkrywasz tajemnicze światy automatów.",
+      "type": "Gry Przygoda",
+      "price": "659 zł"
+    },
+    {
+      "id": 8,
+      "photo": "img/products/item8.webp",
+      "title": "Tajemniczy Labirynt",
+      "description": "Gra przygodowa, w której gracze odkrywają sekrety starożytnego labiryntu.",
+      "type": "Gry Przygoda",
+      "price": "798 zł"
+    },
+    {
+      "id": 9,
+      "photo": "img/products/item9.webp",
+      "title": "Budowniczy Imperiów",
+      "description": "Strategiczna gra ekonomiczna, w której gracze tworzą swoje własne imperia.",
+      "type": "Gry Strategiczne",
+      "price": "699 zł"
+    }
+    
+  ]
+}

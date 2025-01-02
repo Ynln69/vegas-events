@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /page/index.html
+Sitemap: https://czasnagrepl.com/
