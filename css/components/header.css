@@ -10,10 +10,10 @@
 }
 .logo {
   color: var(--logo-color);
-  font-size: clamp(1.25rem, 0.536vw + 1.143rem, 1.625rem);
-  line-height: clamp(1.688rem, 0.723vw + 1.543rem, 2.194rem);
+  font-family: var(--logo-family);
+  font-size: clamp(1.75rem, 1.25vw + 1.5rem, 2.625rem);
+  line-height: clamp(2.625rem, 1.875vw + 2.25rem, 3.938rem);
   font-weight: 700;
-  text-transform: uppercase;
 }
 .burger-menu {
   padding: 0;
@@ -126,9 +126,3 @@
   color: var(--accent-color);
 }
 
-.language-select {
-  display: none;
-  @media (min-width: 1024px) {
-    display: block;
-  }
-}

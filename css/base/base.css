@@ -1,21 +1,26 @@
 :root {
-  --font-family: "Roboto", sans-serif;
-  --main-light-color: #eeeeee;
-  --main-font-color: #757575;
+  --font-family: "Inter Tight", serif;
+  --logo-family: "Italiana", serif;
+
+  --main-color: #eeeeee;
+  --main-font-color: #979494;
   --secondory-font-color: #212121;
+
   --accent-color: #2196f3;
   --secondary-accent-color: #188ce8;
+
   --logo-color: #000000;
-  --boder-bg-color: #2f303a;
+
   --section-team-bg-color: #f5f4fa;
+
   --address-text-color: rgba(255, 255, 255, 0.6);
   --border-color: #eeeeee;
   --border-header-color: #ececec;
   --shadow-btn-color: rgba(0, 0, 0, 0.15);
   --icon-color: #afb1b8;
+
   --time-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -31,7 +36,7 @@ body {
 .main-title {
   margin-bottom: 25px;
 
-  color: var(--logo-color);
+  color: var(--secondory-font-color);
   font-weight: 100;
   font-size: clamp(2.188rem, 3.343vw + 1.366rem, 4.375rem);
   line-height: clamp(2.625rem, 4.011vw + 1.64rem, 5.25rem);
@@ -41,6 +46,7 @@ body {
   width: 100%;
   margin-bottom: 40px;
 
+  color: var(--secondory-font-color);
   font-size: clamp(1.125rem, 0.764vw + 0.937rem, 1.625rem);
   line-height: clamp(1.35rem, 0.917vw + 1.125rem, 1.95rem);
   text-align: justify;
