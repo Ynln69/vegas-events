@@ -5,9 +5,12 @@
 .other-section {
   width: 90%;
   margin-right: auto;
-  padding: 50px;
+  padding: 20px;
   margin-left: auto;
   border-radius: 20px;
+  @media (min-width:768px) {
+    padding: 50px;
+  }
 }
 .other-title {
   margin-bottom: 25px;
