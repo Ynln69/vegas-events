@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
           li.innerHTML = `
             <div class="card-thumb">
               <img src="../${service.photo}" alt="${service.title}" width="370"
-                  class="card-img">
+                  class="card-img" loading="lazy">
               <div class="card-overlay">
                 <p class="bg-text" >
                 ${service.description}
